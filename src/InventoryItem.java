@@ -1,6 +1,6 @@
 class InventoryItem {
-    String itemName;
-    int stockQuantity;
+    String itemName; // Name of the item
+    int stockQuantity; // Quantity of the item in stock
 
     public InventoryItem(String itemName, int stockQuantity) {
         this.itemName = itemName;
